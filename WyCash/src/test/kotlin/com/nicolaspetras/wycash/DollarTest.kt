@@ -10,10 +10,10 @@ class DollarTest {
         val fiveDollars = Dollar(5)
 
         var product = fiveDollars.times(2)
-        assertEquals(10, product)
+        assertEquals(10, product.amount)
 
         product = fiveDollars.times(3)
-        assertEquals(15, product)
+        assertEquals(15, product.amount)
 
 
     }
