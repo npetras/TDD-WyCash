@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a74b2716-d3ae-4509-b392-7b5ee0fd3784" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WyCash.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WyCash.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nicolaspetras/wycash/Dollar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nicolaspetras/wycash/Dollar.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/nicolaspetras/wycash/DollarTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/nicolaspetras/wycash/DollarTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/nicolaspetras/wycash/Dollar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nicolaspetras/wycash/Dollar.class" afterDir="false" />
@@ -204,7 +201,8 @@
       <workItem from="1582484847166" duration="2810000" />
       <workItem from="1582487750610" duration="842000" />
       <workItem from="1582490547209" duration="20000" />
-      <workItem from="1582563154426" duration="2582000" />
+      <workItem from="1582563154426" duration="2989000" />
+      <workItem from="1582719182212" duration="2415000" />
     </task>
     <servers />
   </component>
@@ -212,30 +210,34 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2660" y="100" width="2360" height="1240" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1582563597583">
+    <state x="2660" y="100" width="2360" height="1240" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1582719645214">
       <screen x="2560" y="0" width="2560" height="1440" />
     </state>
-    <state x="2660" y="100" width="2360" height="1240" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.27.2560.1413/2560.0.2560.1440/5120.360.1920.1080@2560.0.2560.1440" timestamp="1582563597583" />
+    <state x="2660" y="100" width="2360" height="1240" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.27.2560.1413/2560.0.2560.1440/5120.360.1920.1080@2560.0.2560.1440" timestamp="1582719645214" />
     <state x="3685" y="612" width="299" height="223" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582565751633">
       <screen x="2560" y="0" width="2560" height="1440" />
     </state>
     <state x="3685" y="612" width="299" height="223" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.27.2560.1413/2560.0.2560.1440/5120.360.1920.1080@2560.0.2560.1440" timestamp="1582565751633" />
-    <state width="2512" height="377" key="GridCell.Tab.0.bottom" timestamp="1582565785350">
+    <state x="3128" y="343" width="424" height="491" key="FileChooserDialogImpl" timestamp="1582723531889">
       <screen x="2560" y="0" width="2560" height="1440" />
     </state>
-    <state width="2512" height="377" key="GridCell.Tab.0.bottom/0.27.2560.1413/2560.0.2560.1440/5120.360.1920.1080@2560.0.2560.1440" timestamp="1582565785350" />
-    <state width="2512" height="377" key="GridCell.Tab.0.center" timestamp="1582565785350">
+    <state x="3128" y="343" width="424" height="491" key="FileChooserDialogImpl/0.27.2560.1413/2560.0.2560.1440/5120.360.1920.1080@2560.0.2560.1440" timestamp="1582723531889" />
+    <state width="2512" height="377" key="GridCell.Tab.0.bottom" timestamp="1582728363836">
       <screen x="2560" y="0" width="2560" height="1440" />
     </state>
-    <state width="2512" height="377" key="GridCell.Tab.0.center/0.27.2560.1413/2560.0.2560.1440/5120.360.1920.1080@2560.0.2560.1440" timestamp="1582565785350" />
-    <state width="2512" height="377" key="GridCell.Tab.0.left" timestamp="1582565785349">
+    <state width="2512" height="377" key="GridCell.Tab.0.bottom/0.27.2560.1413/2560.0.2560.1440/5120.360.1920.1080@2560.0.2560.1440" timestamp="1582728363836" />
+    <state width="2512" height="377" key="GridCell.Tab.0.center" timestamp="1582728363836">
       <screen x="2560" y="0" width="2560" height="1440" />
     </state>
-    <state width="2512" height="377" key="GridCell.Tab.0.left/0.27.2560.1413/2560.0.2560.1440/5120.360.1920.1080@2560.0.2560.1440" timestamp="1582565785349" />
-    <state width="2512" height="377" key="GridCell.Tab.0.right" timestamp="1582565785350">
+    <state width="2512" height="377" key="GridCell.Tab.0.center/0.27.2560.1413/2560.0.2560.1440/5120.360.1920.1080@2560.0.2560.1440" timestamp="1582728363836" />
+    <state width="2512" height="377" key="GridCell.Tab.0.left" timestamp="1582728363836">
       <screen x="2560" y="0" width="2560" height="1440" />
     </state>
-    <state width="2512" height="377" key="GridCell.Tab.0.right/0.27.2560.1413/2560.0.2560.1440/5120.360.1920.1080@2560.0.2560.1440" timestamp="1582565785350" />
+    <state width="2512" height="377" key="GridCell.Tab.0.left/0.27.2560.1413/2560.0.2560.1440/5120.360.1920.1080@2560.0.2560.1440" timestamp="1582728363836" />
+    <state width="2512" height="377" key="GridCell.Tab.0.right" timestamp="1582728363836">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2512" height="377" key="GridCell.Tab.0.right/0.27.2560.1413/2560.0.2560.1440/5120.360.1920.1080@2560.0.2560.1440" timestamp="1582728363836" />
   </component>
   <component name="masterDetails">
     <states>

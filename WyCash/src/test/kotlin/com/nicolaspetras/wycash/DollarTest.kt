@@ -7,20 +7,22 @@ import org.junit.jupiter.api.Test
 
 class DollarTest {
     @Test
-    fun `test mutiplciation basic`() {
+    fun `test multiplication basic`() {
         val fiveDollars = Dollar(5)
         val product = fiveDollars.times(2)
-
-        assertEquals(10, product.amount)
+        val expectedProduct = Dollar(10)
+        assertEquals(expectedProduct, product)
     }
 
     @Test
     fun `test multiplication - method called twice` () {
         val fiveDollars = Dollar(5)
+        val expectedProduct = Dollar(15)
+
         var product = fiveDollars.times(2)
         product = fiveDollars.times(3)
 
-        assertEquals(15, product.amount)
+        assertEquals(expectedProduct, product)
     }
 
     @Test
