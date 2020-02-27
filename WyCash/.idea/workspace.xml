@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a74b2716-d3ae-4509-b392-7b5ee0fd3784" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nicolaspetras/wycash/CurrencyType.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nicolaspetras/wycash/Money.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nicolaspetras/wycash/MoneyFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/nicolaspetras/wycash/MoneyTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nicolaspetras/wycash/Dollar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nicolaspetras/wycash/Dollar.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/nicolaspetras/wycash/DollarTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/nicolaspetras/wycash/DollarTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nicolaspetras/wycash/Dollar.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/nicolaspetras/wycash/DollarTest.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/nicolaspetras/wycash/Dollar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nicolaspetras/wycash/Dollar.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/nicolaspetras/wycash/DollarTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/nicolaspetras/wycash/DollarTest.class" afterDir="false" />
     </list>
@@ -21,6 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
+        <option value="Kotlin Enum" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -43,7 +49,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -56,7 +62,7 @@
       <recent name="E:\work\Books\fundamental_kotlin\test-drive-development\WyCashMaven\src\main\kotlin" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DollarTest">
+  <component name="RunManager" selected="JUnit.MoneyTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -86,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DollarTest.test multiplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WyCashMaven" />
+    <configuration name="FrancTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WyCash" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.nicolaspetras.wycash.*" />
@@ -95,8 +101,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.nicolaspetras.wycash" />
-      <option name="MAIN_CLASS_NAME" value="com.nicolaspetras.wycash.DollarTest" />
-      <option name="METHOD_NAME" value="test multiplication" />
+      <option name="MAIN_CLASS_NAME" value="com.nicolaspetras.wycash.FrancTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoneyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WyCash" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nicolaspetras.wycash.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nicolaspetras.wycash" />
+      <option name="MAIN_CLASS_NAME" value="com.nicolaspetras.wycash.MoneyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoneyTest.test equality - two different types of Money objects" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WyCash" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nicolaspetras.wycash.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nicolaspetras.wycash" />
+      <option name="MAIN_CLASS_NAME" value="com.nicolaspetras.wycash.MoneyTest" />
+      <option name="METHOD_NAME" value="test equality - two different types of Money objects" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -105,6 +143,21 @@
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.nicolaspetras.wycash in WyCash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WyCash" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nicolaspetras.wycash.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nicolaspetras.wycash" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -178,13 +231,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.DollarTest.test multiplication" />
       <item itemvalue="JUnit.DollarTest" />
+      <item itemvalue="JUnit.FrancTest" />
+      <item itemvalue="JUnit.com.nicolaspetras.wycash in WyCash" />
+      <item itemvalue="JUnit.MoneyTest.test equality - two different types of Money objects" />
+      <item itemvalue="JUnit.MoneyTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MoneyTest" />
+        <item itemvalue="JUnit.com.nicolaspetras.wycash in WyCash" />
+        <item itemvalue="JUnit.MoneyTest.test equality - two different types of Money objects" />
+        <item itemvalue="JUnit.FrancTest" />
         <item itemvalue="JUnit.DollarTest" />
-        <item itemvalue="JUnit.DollarTest.test multiplication" />
       </list>
     </recent_temporary>
   </component>
@@ -203,6 +262,7 @@
       <workItem from="1582490547209" duration="20000" />
       <workItem from="1582563154426" duration="2989000" />
       <workItem from="1582719182212" duration="2415000" />
+      <workItem from="1582817343444" duration="7289000" />
     </task>
     <servers />
   </component>
@@ -210,34 +270,46 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2660" y="100" width="2360" height="1240" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1582719645214">
+    <state x="2660" y="100" width="2360" height="1240" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1582825468348">
       <screen x="2560" y="0" width="2560" height="1440" />
     </state>
-    <state x="2660" y="100" width="2360" height="1240" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.27.2560.1413/2560.0.2560.1440/5120.360.1920.1080@2560.0.2560.1440" timestamp="1582719645214" />
+    <state x="2660" y="100" width="2360" height="1240" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.27.2560.1413/2560.0.2560.1440/5120.360.1920.1080@2560.0.2560.1440" timestamp="1582825468348" />
     <state x="3685" y="612" width="299" height="223" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582565751633">
       <screen x="2560" y="0" width="2560" height="1440" />
     </state>
     <state x="3685" y="612" width="299" height="223" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.27.2560.1413/2560.0.2560.1440/5120.360.1920.1080@2560.0.2560.1440" timestamp="1582565751633" />
+    <state x="3573" y="468" width="524" height="511" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582825326579">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3573" y="468" width="524" height="511" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.2560.1413/2560.0.2560.1440/5120.360.1920.1080@2560.0.2560.1440" timestamp="1582825326579" />
     <state x="3128" y="343" width="424" height="491" key="FileChooserDialogImpl" timestamp="1582723531889">
       <screen x="2560" y="0" width="2560" height="1440" />
     </state>
     <state x="3128" y="343" width="424" height="491" key="FileChooserDialogImpl/0.27.2560.1413/2560.0.2560.1440/5120.360.1920.1080@2560.0.2560.1440" timestamp="1582723531889" />
-    <state width="2512" height="377" key="GridCell.Tab.0.bottom" timestamp="1582728363836">
+    <state width="2512" height="377" key="GridCell.Tab.0.bottom" timestamp="1582825489085">
       <screen x="2560" y="0" width="2560" height="1440" />
     </state>
-    <state width="2512" height="377" key="GridCell.Tab.0.bottom/0.27.2560.1413/2560.0.2560.1440/5120.360.1920.1080@2560.0.2560.1440" timestamp="1582728363836" />
-    <state width="2512" height="377" key="GridCell.Tab.0.center" timestamp="1582728363836">
+    <state width="2512" height="377" key="GridCell.Tab.0.bottom/0.27.2560.1413/2560.0.2560.1440/5120.360.1920.1080@2560.0.2560.1440" timestamp="1582825489085" />
+    <state width="2512" height="377" key="GridCell.Tab.0.center" timestamp="1582825489085">
       <screen x="2560" y="0" width="2560" height="1440" />
     </state>
-    <state width="2512" height="377" key="GridCell.Tab.0.center/0.27.2560.1413/2560.0.2560.1440/5120.360.1920.1080@2560.0.2560.1440" timestamp="1582728363836" />
-    <state width="2512" height="377" key="GridCell.Tab.0.left" timestamp="1582728363836">
+    <state width="2512" height="377" key="GridCell.Tab.0.center/0.27.2560.1413/2560.0.2560.1440/5120.360.1920.1080@2560.0.2560.1440" timestamp="1582825489085" />
+    <state width="2512" height="377" key="GridCell.Tab.0.left" timestamp="1582825489085">
       <screen x="2560" y="0" width="2560" height="1440" />
     </state>
-    <state width="2512" height="377" key="GridCell.Tab.0.left/0.27.2560.1413/2560.0.2560.1440/5120.360.1920.1080@2560.0.2560.1440" timestamp="1582728363836" />
-    <state width="2512" height="377" key="GridCell.Tab.0.right" timestamp="1582728363836">
+    <state width="2512" height="377" key="GridCell.Tab.0.left/0.27.2560.1413/2560.0.2560.1440/5120.360.1920.1080@2560.0.2560.1440" timestamp="1582825489085" />
+    <state width="2512" height="377" key="GridCell.Tab.0.right" timestamp="1582825489085">
       <screen x="2560" y="0" width="2560" height="1440" />
     </state>
-    <state width="2512" height="377" key="GridCell.Tab.0.right/0.27.2560.1413/2560.0.2560.1440/5120.360.1920.1080@2560.0.2560.1440" timestamp="1582728363836" />
+    <state width="2512" height="377" key="GridCell.Tab.0.right/0.27.2560.1413/2560.0.2560.1440/5120.360.1920.1080@2560.0.2560.1440" timestamp="1582825489085" />
+    <state x="3336" y="355" width="1007" height="737" key="SettingsEditor" timestamp="1582818582146">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3336" y="355" width="1007" height="737" key="SettingsEditor/0.27.2560.1413/2560.0.2560.1440/5120.360.1920.1080@2560.0.2560.1440" timestamp="1582818582146" />
+    <state x="3480" y="424" width="879" height="592" key="find.popup" timestamp="1582817757228">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3480" y="424" width="879" height="592" key="find.popup/0.27.2560.1413/2560.0.2560.1440/5120.360.1920.1080@2560.0.2560.1440" timestamp="1582817757228" />
   </component>
   <component name="masterDetails">
     <states>
