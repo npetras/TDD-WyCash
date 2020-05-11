@@ -1,9 +1,13 @@
 package com.nicolaspetras.wycash
 
-open class Money(val amount: Int, val currencyType: CurrencyType = CurrencyType.NONE) {
+open class Money(val amount: Int, val currencyType: CurrencyType = CurrencyType.NONE): Expression {
 
     fun times(multiplier: Int): Money {
-        return Money(this.amount * multiplier)
+        return Money(this.amount * multiplier, currencyType)
+    }
+
+    fun plus(addend: Money): Expression {
+        return Money(this.amount + addend.amount, currencyType)
     }
 
     override fun equals(other: Any?): Boolean {

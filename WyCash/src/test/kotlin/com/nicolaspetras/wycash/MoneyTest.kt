@@ -6,7 +6,6 @@ import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 
 class MoneyTest {
-
     @Test
     fun `test equality - two equal Money objects`() {
         val fiveMoneys1 = Money(amount = 5)
@@ -48,6 +47,22 @@ class MoneyTest {
         product = fiveMoney.times(3)
 
         assertEquals(expectedProduct, product)
+    }
+
+    @Test
+    fun `test simple addition`() {
+        val fiveDollars = createDollar(5)
+        val bank = Bank()
+        val sum = fiveDollars.plus(fiveDollars)
+        val reducedSum = bank.reduce(sum, CurrencyType.USD)
+
+        assertEquals(createDollar(10), reducedSum)
+    }
+
+    @Test
+    fun `test addition - plus() should return a Sum (Expression)`() {
+        val fiveDollars = createDollar(5)
+        val additionResult = fiveDollars.plus(fiveDollars)
     }
 }
 
